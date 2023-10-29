@@ -36,7 +36,6 @@
       <h2>Contact:</h2>
       <address>
         <a href="mailto:vedantfar@gmail.com">vedantfar@gmail.com</a><br />
-        <a href="tel:99999999999">99999999999</a>
       </address> 
   </div>
 </div>
