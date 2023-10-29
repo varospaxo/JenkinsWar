@@ -2,6 +2,7 @@ node{
 
    def tomcatWeb = 'C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\webapps'
    def tomcatBin = 'C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\bin'
+   def catalina = 'C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/varospaxo/JenkinsWar.git'
@@ -15,8 +16,9 @@ node{
      bat "copy target\\JenkinsWar.war \"${tomcatWeb}\\JenkinsWar.war\""
    }
       stage ('Start Tomcat Server') {
-         sleep(time:5,unit:"SECONDS") 
+         sleep(time:5,unit:"SECONDS")
+         bat "set CATALINA_HOME=${catalina}"
          bat "\"${tomcatBin}\\startup.bat\""
-         sleep(time:50,unit:"SECONDS")
+         sleep(time:10,unit:"SECONDS")
    }
 }
