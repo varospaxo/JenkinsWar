@@ -6,12 +6,6 @@ body {
   a {
     text-decoration: none;
   }
-  a[href^='mailto']::before {
-    content: '📧 ';
-  }
-  a[href^='tel']::before {
-    content: '📞 ';
-  }
   
   #contact {
     text-align: center;
