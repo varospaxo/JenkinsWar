@@ -13,7 +13,7 @@ body {
     content: '📞 ';
   }
   
-  #contact address {
+  #contact {
     text-align: center;
 }
   input[type=text], select {
