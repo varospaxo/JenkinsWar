@@ -4,6 +4,14 @@
 <link rel="stylesheet" href="style.css">
 <head>
   <title>Varospaxo - Index</title>
+    <script>
+        document.querySelector("form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            const userInput = document.getElementById("searchInput").value;
+            const newURL = "https://google.com/search?q=" + userInput;
+            window.open(newURL, "_blank");
+        });
+    </script>
 </head>
 <body>
 <div class="navbar">
@@ -25,11 +33,12 @@
     </div>
     <div><br><br></div>
     <div id="search">
-        <form target="_blank" action="https://google.com">
+        <form target="_blank" action="https://google.com/search">
             <label for="search">Search:</label>
-            <input type="text" id="search" name="search"><br>
+            <input type="text" id="searchInput" name="q"><br>
             <input type="submit" value="Submit">
-          </form> 
+        </form>
+    </div>
     </div>
     <div><br><br></div>
     <div id="contact">
