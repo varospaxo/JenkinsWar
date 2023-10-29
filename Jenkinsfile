@@ -19,6 +19,6 @@ node{
          sleep(time:5,unit:"SECONDS")
          bat "set CATALINA_HOME=${catalina}"
          bat "\"${tomcatBin}\\startup.bat\""
-         sleep(time:10,unit:"SECONDS")
+         sleep(time:100,unit:"SECONDS")
    }
 }
