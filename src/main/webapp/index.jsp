@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
 <head>
-  <title>Index</title>
+  <title>Varospaxo - Index</title>
     <script>
         document.querySelector("form").addEventListener("submit", function(event) {
             event.preventDefault(); // Prevent the default form submission
