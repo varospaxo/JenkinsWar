@@ -13,7 +13,6 @@
         });
     </script>
 </head>
-<---->
 <body>
 <div class="navbar">
     <div class="flex-container">
@@ -50,4 +49,4 @@
   </div>
 </div>
 </body>
-</html><--hehe-->
+</html>
