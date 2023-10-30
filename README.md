@@ -4,6 +4,7 @@ https://github.com/sivajavatechie/JenkinsWar
 https://github.com/varospaxo/JenkinsWar.git
 
 uncomment and add user in tomcat user file
+roles="manager-gui,manager-status"
 <user username="admin" password="admin" roles="manager-gui,manager-status"/>
 
 configure tomcat server port
