@@ -20,6 +20,7 @@
     <div><a href="#home">Home</a></div> 
     <div><a href="#search">Search</a></div>
     <div><a href="#contact">Contact</a></div>
+    <div><a href="#contact">Practical</a></div>
 </div>
 </div>
 <section id="gallery">
