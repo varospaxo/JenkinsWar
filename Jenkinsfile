@@ -1,7 +1,7 @@
 node{
 
-   def tomcatWeb = 'C:\\Program Files\\Apache Software Foundation\\Tomcat 10.0\\webapps'
-   def tomcatBin = 'C:\\Program Files\\Apache Software Foundation\\Tomcat 10.0\\bin'
+   def tomcatWeb = 'C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps'
+   def tomcatBin = 'C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\bin'
    def catalina = 'C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1'
    def tomcatStatus = ''
    stage('SCM Checkout'){
